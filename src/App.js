@@ -13,11 +13,11 @@ function App() {
       <Router>
         <Header></Header>
         <div className="Container">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/movie/:imdbID" component={MovieDetail} />
-          <Route exact component={PageNotFound} />
-        </Switch>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/movie/:imdbID" component={MovieDetail} />
+            <Route exact component={PageNotFound} />
+          </Switch>
         </div>
         <Footer />
       </Router>
@@ -26,4 +26,3 @@ function App() {
 }
 
 export default App;
- 
